@@ -25,6 +25,7 @@ header {
   margin-top: 0.5rem;
   }
 
+  
 
 .nav-toggle {
   position: absolute !important;
@@ -137,16 +138,6 @@ body.contato #navegacao  li#contato a {
      cursor: text;
 } 
 
-/* MAIN  */
-
-.mascote {
-
-  position: relative;
-  left: 100%;
-  width: 20vw;
-
-}
-
 /* Media Querie */
 
 @media screen and (min-width: 800px) {
@@ -215,6 +206,7 @@ body.contato #navegacao  li#contato a {
     transform: scale(1,1);
   }
 
+
 }
 
 @media screen and (max-width: 800px) {
@@ -235,6 +227,45 @@ body.contato #navegacao  li#contato a {
     
   }
 
+
+}
+
+/* MAIN  */
+
+.present {
+  font-weight: 600;
+  font-size: 33px;
+}
+
+.conheca {
+  margin-top: 1.5rem;
+  padding: 0.5rem 3rem;
+  border-radius: 10px;
+  background-color: #1C1B3D;
+}
+
+.conheca a {
+  color: white;
+  font-weight: 600;
 }
 
 
+
+/********** footer *****/
+
+footer {
+  position: relative;
+  top: 50rem;
+}
+
+.rodape {
+  display: flex;
+   color: white;
+   background-color: #dd4949;  
+}
+.fa-facebook {
+   margin-right: 25px;
+}
+.fa-instagram {
+   margin-right: 25px;
+}
