@@ -282,10 +282,10 @@ body.contato #navegacao  li#contato a {
 
 /********** footer *****/
 
-footer {
+/* footer {
   position: relative;
   top: 25rem;
-}
+} */
 
 .rodape {
   display: flex;
