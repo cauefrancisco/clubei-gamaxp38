@@ -206,6 +206,9 @@ body.contato #navegacao  li#contato a {
     transform: scale(1,1);
   }
 
+  .
+
+
 
 }
 
@@ -225,6 +228,11 @@ body.contato #navegacao  li#contato a {
     margin-top: 15px;
     font-size: 7vw;
     
+  }
+
+  .primeira {
+    padding: 0;
+    margin: 0;
   }
 
 
