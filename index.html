@@ -17,7 +17,7 @@
   <div class="container" style="width: 100vw;">
 
     <header>
-      <img src="imagens/logo-horizontal.png" style="width: 20vw;" alt="logo">
+      <img class="logonav" src="imagens/logo-horizontal.png" style="width: 20vw;" alt="logo">
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <nav>
         <ul id="navegacao"> 
@@ -54,7 +54,7 @@
         </div>
       </section>
     
-      <section style="margin-bottom: 7rem;"> <!--Section planos-->
+      <section class="planossection" style="margin-bottom: 7rem;"> <!--Section planos-->
 
         <div class="row">
           <div class="col-6">
@@ -65,9 +65,9 @@
         <div class="d-flex flex-row bd-highlight mb-3 align-items-lg-center ms-5 mt-lg-5 text-center sec-planos">
 
           <div class="p-2 bd-highlight border border-dark rounded" style="width: 28%; height: 30rem; margin-right: 5rem;"> <!--Plano B-->
-            <h2 class="mb-4 mt-4">Plano B</h2>
+            <h2 class="mb-4 mt-4">Mega</h2>
             <br><br>
-            <ul class="mb-4">
+            <ul class="mb-4"> 
 
               <li class="text-start">Direito a 2 clubes</li>
               <li class="text-start">Pagamento com desconto, feito diretamente da folha de pagamento</li>
@@ -79,16 +79,18 @@
             <button class="assinar border-0">
               <a style="text-decoration: none;" href="conheca">Assinar</a>
           </button>
-
+ 
 
           </div> <!--Fim Plano B-->
 
+          <img src="/imagens/Amarelo.png" alt="clubinho" class="clubinho-planos">
+
           <div class="p-2 bd-highlight rounded plano-a" style="width: 28%; height: 30rem; margin-right: 5rem; background-color:#dd4949; color: white;"> <!--Plano A-->
-            <h2 class="mb-4 mt-4">Plano A</h2>
+            <h2 class="mb-4 mt-4">TOP</h2>
             <br><br>
             <ul class="mb-4">
 
-              <li class="text-start">Direito a 3 clubes</li>
+              <li class="text-start">Direito a 3 clubes </li>
               <li class="text-start">Pagamento com desconto, feito diretamente da folha de pagamento</li>
               <li class="text-start">Cancele quando quiser</li>
 
@@ -102,7 +104,7 @@
           </div> <!--Fim Plano A-->
 
           <div class="p-2 bd-highlight border border-dark rounded" style="width: 28%; height: 30rem;"> <!--Plano C-->
-            <h2 class="mb-4 mt-4">Plano C</h2>
+            <h2 class="mb-4 mt-4">Super</h2>
             <br><br>
             <ul class="mb-4">
 
@@ -124,7 +126,7 @@
 
     </section> <!--Fim section Planos-->
 
-    <section style="background-color: lightgrey; width: 100vw;" class="ms-5 text-center"><!--Section colaborador-->
+    <section class="text-center" style="background-color:#dbdbdb; width: 100vw;"><!--Section colaborador-->
 
       <div class="d-flex flex-row bd-highlight mb-3">
             
@@ -135,25 +137,25 @@
             <a style="text-decoration: none;" href="conheca">Solicitar contato</a>
         </button>
         </div>
-        <div class="col-md-4 p-2 bd-highlight"><img src="imagens/Verde.png" alt="verde" style="width: 350px;"></div>
+        <div class="col-md-4 p-2 bd-highlight"><img src="imagens/Verde.png" alt="verde" style="width: 250px;"></div>
       </div>
 
     </section><!--Fim section colaborador-->
 
-    
-    <section style="color: white; font-weight: 900;"><!--Section amostras-->
-      <div class="d-flex p-3 bd-highlight">
-        <h1 style="color: #dd4949; font-weight: 600;">Uma amostra do que você encontra aqui</h1>
-      </div>
+    <div class="d-flex p-3 bd-highlight">
+      <h1 style="color: #dd4949; font-weight: 600;">Uma amostra do que você encontra aqui</h1>
+    </div>
+    <section class="carrossel-amostras" style="color: white; font-weight: 900;"><!--Section amostras-->
+      
 
       <div class="d-flex flex-row bd-highlight mb-3"><!--Alimento-->
 
         <div class="p-2 bd-highlight">
-          <div class="card rounded-3" style="width: 15rem; background-color: yellow;">
+          <div class="card rounded-3" style="width: 20rem; background-color: #e6bf22;">
             <div class="card-body text-center">
               <p class="card-text">Alimentos</p>
             </div>
-            <img src="imagens/caixa-colonial.jpg" class="card-img-top rounded" style="height: 9rem;" alt="...">
+            <img src="imagens/caixa-colonial.jpg" class="card-img-top rounded" style="height: 12rem;" alt="...">
           </div>
 
         </div>
@@ -161,11 +163,11 @@
         <div class="d-flex flex-row bd-highlight mb-3"><!--Arte e cultura-->
 
           <div class="p-2 bd-highlight">
-            <div class="card rounded-3" style="width: 15rem; background-color: red;">
+            <div class="card rounded-3" style="width: 20rem; background-color: #dd4949;">
               <div class="card-body text-center">
                 <p class="card-text">Arte e cultura</p>
               </div>
-              <img src="imagens/crochet-in-box.jpg" class="card-img-top rounded" style="width: fit-content; height: 9rem;" alt="...">
+              <img src="imagens/crochet-in-box.jpg" class="card-img-top rounded" style="width: fit-content; height: 12rem;" alt="...">
             </div>
   
           </div>
@@ -173,11 +175,11 @@
           <div class="d-flex flex-row bd-highlight mb-3"><!--Bebidas -->
 
             <div class="p-2 bd-highlight">
-              <div class="card rounded-3" style="width: 15rem; background-color: blue;">
+              <div class="card rounded-3" style="width: 20rem; background-color: #4885c4;">
                 <div class="card-body text-center">
                   <p class="card-text">Bebidas</p>
                 </div>
-                <img src="imagens/beer-bier.jpg" class="card-img-top rounded" style="height: 9rem;" alt="...">
+                <img src="imagens/beer-bier.jpg" class="card-img-top rounded" style="height: 12rem;" alt="...">
               </div>
     
             </div>
@@ -185,11 +187,11 @@
             <div class="d-flex flex-row bd-highlight mb-3"><!--Fitness-->
 
               <div class="p-2 bd-highlight">
-                <div class="card rounded-3" style="width: 15rem; background-color: green;">
+                <div class="card rounded-3" style="width: 20rem; background-color: #3fb072;">
                   <div class="card-body text-center">
                     <p class="card-text">Fitness</p>
                   </div>
-                  <img src="imagens/clube-strong-suplementos.jpg" class="card-img-top rounded" style="height: 9rem;" alt="...">
+                  <img src="imagens/clube-strong-suplementos.jpg" class="card-img-top rounded" style="height: 12rem;" alt="...">
                 </div>
       
               </div>
@@ -228,7 +230,7 @@
 
         <div class="row rodape">
           <center>
-            <br>
+            <br><br>
             <img src="imagens/Rectangle 39.png">
             <br>
               <img src="imagens/O clube dos clubes.png">
