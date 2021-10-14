@@ -1,9 +1,29 @@
-* {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-}
+} */
 
 a{
     text-decoration: none;
@@ -22,7 +42,9 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
-  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  /* margin-top: 0.5rem; */
   }
 
   
@@ -98,9 +120,9 @@ nav ul {
 }
 
 nav li {
-  margin-bottom: 1em;
+  /* margin-bottom: 1em;
   margin-left: 1em;
-  margin-top: 3rem;
+  margin-top: 3rem; */
   padding: 0.3rem;
   border: 1px solid rgb(25, 25, 26);
   border-radius: 10px;
@@ -127,6 +149,21 @@ nav a:hover {
 .nav-toggle:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
+}
+
+.clubinho-planos{
+  width: 150px;
+  position: absolute;
+  left: 730px;
+  top: 875px;
+}
+.carrossel-amostras{
+  width: 80vw;
+  scrollbar-width: none;
+  overflow-x: scroll;
+}
+.carrossel-amostras::-webkit-scrollbar {
+  display: none;
 }
 
 /* marcação do menu */
@@ -205,11 +242,6 @@ body.contato #navegacao  li#contato a {
   nav a:hover::before {
     transform: scale(1,1);
   }
-
-  
-
-
-
 }
 
 @media screen and (max-width: 800px) {
@@ -234,8 +266,6 @@ body.contato #navegacao  li#contato a {
     padding: 0;
     margin: 0;
   }
-
-
 }
 
 /* MAIN  */
