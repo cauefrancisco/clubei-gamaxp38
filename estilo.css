@@ -151,11 +151,19 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
+.img-fluid {
+  position: absolute;
+  width: 1296px;
+  height: 400px;
+  left: 72px;
+  top: 200px;
+}
+
 .clubinho-planos{
   width: 150px;
   position: absolute;
   left: 730px;
-  top: 875px;
+  top: 695px;
 }
 .carrossel-amostras{
   width: 80vw;
