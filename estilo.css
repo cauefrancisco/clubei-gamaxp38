@@ -345,6 +345,21 @@ body.contato #navegacao  li#contato a {
   font-size: 1rem;
 }
 
+.trocar-planos-btn {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+  background-color: #1C1B3D;
+}
+
+.trocar-planos-btn a {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 /********** footer *****/
 
 /* footer {
